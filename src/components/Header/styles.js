@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   padding: 2rem;
-  background-color: #566270;
+  background-color: #1f385e;
 `;
 
 export const Ul = styled.ul`

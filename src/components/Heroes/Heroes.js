@@ -15,8 +15,9 @@ function Heroes() {
         const heroes = dados.results.map((hero) => {
           return {
             id: hero.id,
-            name: hero.name,
+            name: [hero.biography.aliases[0]],
             image: [hero.image.url],
+            work: [hero.work.base],
           };
         });
         console.log(heroes);

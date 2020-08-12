@@ -5,11 +5,14 @@ import Heroes from "../Heroes/Heroes";
 
 const Main = () => {
   return (
-    <S.Wrapper>
-      <h1>Herois</h1>
-
-      <Heroes />
-    </S.Wrapper>
+    <div>
+      <S.TitleHeroes>
+        <S.Title>Heróis</S.Title>
+      </S.TitleHeroes>
+      <S.Section>
+        <Heroes />
+      </S.Section>
+    </div>
   );
 };
 

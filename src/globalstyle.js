@@ -9,13 +9,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body{
+    background: #0F123D;
+    font-family: 'Montserrat', sans-serif;
     height: 100vh;
-    background: #FFFFF3;
   }
 
   a{
     text-decoration: none;
-    color: #41D3BD;
+    color: #7CDDF1;
   }
 `;
 
